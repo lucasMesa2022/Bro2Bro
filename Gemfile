@@ -7,6 +7,7 @@ ruby '3.2.2'
 gem 'rails', '~> 7.0.6'
 
 gem 'bootsnap', require: false
+gem "devise", "~> 4.9"
 gem 'importmap-rails'
 gem 'jbuilder'
 gem 'puma', '~> 5.0'

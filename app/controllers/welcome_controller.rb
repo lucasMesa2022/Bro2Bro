@@ -1,4 +1,4 @@
 class WelcomeController < ApplicationController
-  def greeting
+  def show
   end
 end

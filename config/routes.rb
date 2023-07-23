@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   }
   resource :welcome, only: [:show], controller: 'welcome'
   # Defines the root path route ("/")
-  root 'welcome#greeting'
+  root 'welcome#show'
 end

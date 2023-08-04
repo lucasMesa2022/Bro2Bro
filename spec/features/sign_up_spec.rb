@@ -10,7 +10,6 @@ RSpec.describe "User can sign up" do
     fill_in "Password", with: 'password'
     fill_in "Password confirmation", with: 'password'
     
-    puts "XXXXXXXXXX"
     click_button "Sign up"
 
     expect(User.last.email).to eq('example@email.com')

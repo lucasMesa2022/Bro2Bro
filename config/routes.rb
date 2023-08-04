@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {
     registrations: 'users/registrations'
   }
-  resource :welcome, only: [:show], controller: 'welcome'
+  resource :home, only: [:show], controller: 'home'
   # Defines the root path route ("/")
-  root 'welcome#show'
+  root 'home#show'
 end
